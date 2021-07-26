@@ -22,17 +22,17 @@ if(!isset($usuario)){
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/mainnabvar.css" rel="stylesheet">
-  <link href="css/dropdown.css" rel="stylesheet">
-  <link href="css/sidebar.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
-  <link href="css/general.css" rel="stylesheet">
-  <script src="js/slidermenu.js"></script>
-  <script src="js/dropdown.js"></script>
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/clean-blog.min.js"></script>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/mainnabvar.css" rel="stylesheet">
+  <link href="../css/dropdown.css" rel="stylesheet">
+  <link href="../css/sidebar.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
+  <link href="../css/general.css" rel="stylesheet">
+  <script src="../js/slidermenu.js"></script>
+  <script src="../js/dropdown.js"></script>
+  <script src="../js/jquery/jquery.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/clean-blog.min.js"></script>
    <!-- Termina llamando librerias -->
 </head>
 
@@ -58,7 +58,7 @@ if(!isset($usuario)){
     <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Locaciones</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-        <li class="dropdown-item"><a href="Contenidoweb/cancun.php">Cancún/Rivera Maya</a></li>
+        <li class="dropdown-item"><a href="#">Cancún/Rivera Maya</a></li>
         <li class="dropdown-item"><a href="#">CDMX</a></li>
         <li class="dropdown-item"><a href="#">Guadalajara</a></li>
         <li class="dropdown-item"><a href="#">Monterrey</a></li>
@@ -112,10 +112,10 @@ if(!isset($usuario)){
   </ol>
   <div class="carousel-inner">
       <div class="carousel-item active">
-          <img class="d-block w-100" src="img/1.jpg">
+          <img class="d-block w-100" src="../img/1.jpg">
       </div>
       <div class="carousel-item">
-          <img class="d-block w-100" src="img/1.jpg">
+          <img class="d-block w-100" src="../img/1.jpg">
       </div>
   </div>
 </div>
@@ -144,7 +144,7 @@ if(!isset($usuario)){
 <div class="row">
 <div class="col-12">
         <figure>
-            <img alt="picture" src="img/3.jpg" class="img-fluid" width="350" height="350">
+            <img alt="picture" src="../img/3.jpg" class="img-fluid" width="350" height="350">
         </figure>
     </div> 
 </div>
@@ -158,14 +158,14 @@ if(!isset($usuario)){
 <section><br>
 <div class="row">
 <div class="col-md-5 polaroid">
-  <a href="cfdi.php"><img alt="picture" src="img/2.jpg" class="img-fluid"></a>
+  <a href="cfdi.php"><img alt="picture" src="../img/2.jpg" class="img-fluid"></a>
   <div class="container">
   <p>Lorem Ipsum</p>
 </div>
 </div>
 
 <div class="col-md-5 polaroid">
-  <a href="yoga.php"><img alt="picture" src="img/2.jpg" class="img-fluid"></a>
+  <a href="#"><img alt="picture" src="../img/2.jpg" class="img-fluid"></a>
   <div class="container">
   <p>Lorem Ipsum</p>
 </div>
@@ -177,14 +177,14 @@ if(!isset($usuario)){
 <section><br>
 <div class="row">
 <div class="col-md-5 polaroid">
-  <a href="gestiontiempo.php"><img alt="picture" src="img/2.jpg" class="img-fluid"></a>
+  <a href="#"><img alt="picture" src="../img/2.jpg" class="img-fluid"></a>
   <div class="container">
   <p>Lorem Ipsum</p>
 </div>
 </div>
 
 <div class="col-md-5 polaroid">
-  <a href="muraladministracion.php"><img alt="picture" src="img/2.jpg" class="img-fluid"></a>
+  <a href="#"><img alt="picture" src="../img/2.jpg" class="img-fluid"></a>
   <div class="container">
   <p>Lorem Ipsum</p>
 </div>
@@ -223,7 +223,7 @@ if(!isset($usuario)){
 
   <div class="col-12">
   <a href="#modalcorazonbistro" data-toggle="modal" data-target="#modalcorazonbistro">
-  <img src="img/2.jpg" alt="Avatar" class="image">
+  <img src="../img/2.jpg" alt="Avatar" class="image">
 </a>
  
 
@@ -253,7 +253,7 @@ if(!isset($usuario)){
 
   <div class="col-12">
   <a href="#modalcovid19" data-toggle="modal" data-target="#modalcovid19">
-  <img src="img/2.jpg" alt="Avatar" class="image">
+  <img src="../img/2.jpg" alt="Avatar" class="image">
   </a>
 </div>
 <br>
@@ -270,7 +270,7 @@ if(!isset($usuario)){
 
   <div class="col-12">
   <a href="#modalselvanatura" data-toggle="modal" data-target="#modalselvanatura">
-  <img src="img/2.jpg" alt="Avatar" class="image">
+  <img src="../img/2.jpg" alt="Avatar" class="image">
   </a>
 </div>
 <br>
@@ -316,7 +316,7 @@ if(!isset($usuario)){
                   <div class="modal-body mb-0 p-0">
                      <div class="embed-responsive embed-responsive-16by9">
                       <video class="video-fluid z-depth-1" controls muted autoplay>
-                      <source src="img/diadelniño.mp4" type="video/mp4">
+                      <source src="../img/diadelniño.mp4" type="video/mp4">
                       </video>
                     </div>
                   </div> 
@@ -342,7 +342,7 @@ if(!isset($usuario)){
                   <div class="modal-body mb-0 p-0">
                     <div class="col">
               <figure>
-                <img alt="picture" src="img/anuncios/tema1.jpg" class="img-fluid">
+                <img alt="picture" src="../img/anuncios/tema1.jpg" class="img-fluid">
               </figure>
             </div>
                   </div>  
@@ -368,7 +368,7 @@ if(!isset($usuario)){
                   <div class="modal-body mb-0 p-0">
                     <div class="col">
               <figure>
-                <img alt="picture" src="img/anuncios/coronavirus.png" class="img-fluid">
+                <img alt="picture" src="../img/anuncios/coronavirus.png" class="img-fluid">
               </figure>
             </div>
                   </div>  
@@ -394,7 +394,7 @@ if(!isset($usuario)){
                   <div class="modal-body mb-0 p-0">
                     <div class="col">
               <figure>
-                <img alt="picture" src="img/anuncios/selvanatura.png" class="img-fluid">
+                <img alt="picture" src="../img/anuncios/selvanatura.png" class="img-fluid">
               </figure>
             </div>
                   </div>  
@@ -448,7 +448,7 @@ if(!isset($usuario)){
             </li>
             <li class="list-inline-item">
             <span id="counter">
-            <script src="visitas.php"></script>
+            <script src="#"></script>
             </span>
             </li>
             <li class="list-inline-item">
