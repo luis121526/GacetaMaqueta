@@ -2,8 +2,8 @@
 
 $srv = "localhost";
 $basedatos = "intranet";
-$usuario = "sicasa_gaceta";
-$contraseña = "ScsManagerIt1972";
+$usuario = "root";
+$contraseña = "";
 
 
 $conexion=mysqli_connect("$srv","$usuario","$contraseña","$basedatos");
