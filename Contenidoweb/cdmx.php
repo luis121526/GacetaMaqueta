@@ -58,7 +58,6 @@ if(!isset($usuario)){
     <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Locaciones</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-    <li class="dropdown-item"><a href="Contenidoweb/cancun.php">Cancún/Rivera Maya</a></li>
     <li class="dropdown-item"><a href="cancun.php">Cancún/Rivera Maya</a></li>
         <li class="dropdown-item"><a href="cdmx.php">CDMX</a></li>
         <li class="dropdown-item"><a href="guadalajara.php">Guadalajara</a></li>

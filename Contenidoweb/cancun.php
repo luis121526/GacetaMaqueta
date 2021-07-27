@@ -120,8 +120,6 @@ if(!isset($usuario)){
   </div>
 </div>
 <!--Termina Slider-->
-
-
 <!--Inicia Contenido-->
 <div id="fondopag" class="container">
     <div class="container">
