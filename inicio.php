@@ -59,10 +59,10 @@ if(!isset($usuario)){
     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Locaciones</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
         <li class="dropdown-item"><a href="Contenidoweb/cancun.php">Cancún/Rivera Maya</a></li>
-        <li class="dropdown-item"><a href="#">CDMX</a></li>
-        <li class="dropdown-item"><a href="#">Guadalajara</a></li>
-        <li class="dropdown-item"><a href="#">Monterrey</a></li>
-        <li class="dropdown-item"><a href="#">Queretaro</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/cdmx.php">CDMX</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/guadalajara.php">Guadalajara</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/monterrey.php">Monterrey</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/queretaro.php">Queretaro</a></li>
       </ul>
     </li>
     <li class="nav-item">

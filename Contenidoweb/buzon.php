@@ -92,101 +92,63 @@ while($s=$r->fetch_assoc()){
 
 <!--Inicia Cabecera-->
 <!--Inicia nabvar-->
-<header>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #EBF9F8" id="mainNav">
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white" id="mainNav">
 <div class="container-fluid">
-<a class="navbar-brand" href="http://gaceta.sicasa.com.mx/"><img alt="picture" src="img/logos/logoSicasa.png" width="50" class="img-fluid"></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
+<a class="navbar-brand" href="#">Lorem Ipsum</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lateral" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Gaceta</a>
+    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Locaciones</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-        <li class="dropdown-item"><a href="efemerides.php">Efemérides</a></li>
-        <li class="dropdown-item"><a href="cumplemes.php">Cumpleañeros</a></li>
-        <li class="dropdown-item"><a href="nuevoingreso.php">Nuevo Ingreso</a></li>
-        <li class="dropdown-item"><a href="proveedormes.php">Proveedor del mes</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/cancun.php">Cancún/Rivera Maya</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/cdmx.php">CDMX</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/guadalajara.php">Guadalajara</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/monterrey.php">Monterrey</a></li>
+        <li class="dropdown-item"><a href="Contenidoweb/queretaro.php">Queretaro</a></li>
       </ul>
     </li>
+    <li class="nav-item">
+          <a class="nav-link" href="#">Eventos</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" href="#">Alianzas</a>
+    </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Informacion General</a>
+      <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Organización</a>
       <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">
-        <li class="dropdown-item"><a href="directorio.php">Directorio</a></li>
-        <li class="dropdown-submenu">
-      <a class="dropdown-item" tabindex="-1" href="#">Convenios</a>
-      <ul class="dropdown-menu" style="background-color: #EBF9F8">
-          <li class="dropdown-item"><a href="opticavision.php">Optica Vision Look</a></li>
-      </ul>
-        </li>
-         <li class="dropdown-submenu">
-      <a class="dropdown-item" tabindex="-1" href="#">Temas de Interés</a>
-      <ul class="dropdown-menu" style="background-color: #EBF9F8">
-          <li class="dropdown-item"><a href="construccion.php">Localidad</a><a id="asterisco">*</a></li>
-          <li class="dropdown-item"><a href="construccion.php">Eventos</a><a id="asterisco">*</a></li>
-<li class="dropdown-item"><a href="menu_platicas.php">Pláticas</a></li>      <li class="dropdown-item"><a href="izamal.php">Conoce tu País</a></li>
-      <li class="dropdown-item"><a href="construccion.php">Tendencias</a><a id="asterisco">*</a></li>
-      <li class="dropdown-item"><a href="construccion.php">Otros</a><a id="asterisco">*</a></li>
-      </ul>
-      
-        </li>       
-          
-          <li class="dropdown-item"><a href="materialreferencia.php">Material de Referencia</a></li>
+        <li class="dropdown-item"><a href="#">Organigrama</a></li>     
+        <li class="dropdown-item"><a href="#">Políticas</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Empresa</a>
+    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Miembros</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-    <li class="dropdown-submenu"><a  class="dropdown-item" tabindex="-1" href="#">Cultura</a>
-      <ul class="dropdown-menu" style="background-color: #EBF9F8">
-        <li class="dropdown-item"><a tabindex="-1" href="eventos.php">Eventos</a></li>
-        <li class="dropdown-item"><a href="integracion.php">Integración</a></li>
-        <li class="dropdown-item"><a href="capacitacion.php">Capacitación</a></li>
-        <li class="dropdown-item"><a href="construccion.php">Convocatorias<a id="asterisco">*</a></a></li>
-        <li class="dropdown-item"><a href="construccion.php">Iniciativas<a id="asterisco">*</a></a></li>
-        <li class="dropdown-item"><a href="construccion.php">Clubes<a id="asterisco">*</a></a></li>
-      </ul>
-    </li>
-        <li class="dropdown-item"><a href="politica.php">Políticas</a></li>  
-        <li class="dropdown-item"><a href="construccion.php">Vacantes<a id="asterisco">*</a></a></li>
-        <li class="dropdown-item"><a href="construccion.php">Perfil de Puesto<a id="asterisco">*</a></a></li>
-        <li class="dropdown-item"><a href="construccion.php">Historia<a id="asterisco">*</a></a></li>
-        
-        <li class="dropdown-submenu">
-      <a class="dropdown-item" tabindex="-1" href="#">Organizacion</a>
-      <ul class="dropdown-menu" style="background-color: #EBF9F8">
-          <li class="dropdown-item"><a href="construccion.php">Localidad<a id="asterisco">*</a></a></li>
-          <li class="dropdown-item"><a href="construccion.php">Eventos<a id="asterisco">*</a></a></li>
-      </ul>
-        </li>       
-        <li class="dropdown-item"><a href="construccion.php">Certificaciones<a id="asterisco">*</a></a></li>
+        <li class="dropdown-item"><a href="#">Nuevos Ingresos</a></li>  
+        <li class="dropdown-item"><a href="#">Miembros Actuales</a></li>
       </ul>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="ventas.php">Ventas</a>
+          <a class="nav-link" href="#">Buzón</a>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="Buzon2.php">Buzon de la confianza</a>
-    </li>
-    <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false"><?php echo $usuario ?>
-  </a>
-    
-    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-        <li class="dropdown-item"><?//php echo $nombre." ".$apellido?></li>
-        <li class="dropdown-item">C.R. <?php //echo " ".$cod ?></li>
-        <li class="dropdown-item"><a href="salir.php">Cerrar Sesion</a></li>
-      </ul>
-    </li>
-    <li class="nav-item">
-    <!--<img src="data:image/jpeg; base64 ,<?php //echo $imagen ?> " width="32" height="27" class="img-fluid">-->
+          <a class="nav-link" href="salir.php">Cerrar Sesion</a>
     </li>
     </ul>
   </div>
 </div>
 </nav>
-  </header>  
+ 
   <!--Termina nabvar-->
   <!--Termina Cabecera-->
 
