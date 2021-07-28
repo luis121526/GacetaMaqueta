@@ -86,7 +86,7 @@ if(!isset($usuario)){
       </ul>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="#">Buzón</a>
+          <a class="nav-link" href="Contenidoweb/buzon.php">Buzón</a>
     </li>
     <li class="nav-item">
           <a class="nav-link" href="salir.php">Cerrar Sesion</a>

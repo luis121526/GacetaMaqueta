@@ -139,7 +139,7 @@ while($s=$r->fetch_assoc()){
       </ul>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="#">Buzón</a>
+          <a class="nav-link" href="buzon.php">Buzón</a>
     </li>
     <li class="nav-item">
           <a class="nav-link" href="salir.php">Cerrar Sesion</a>
