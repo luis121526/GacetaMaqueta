@@ -20,7 +20,7 @@ else{
     <div class="fadeIn first">
       <!--dejé comentado la imagen de sicasa debido a que no se refleja en la pagina-->
 
-      <a href="https://www.sicasa.com.mx"><img src="img/logo.jpg" id="icon" alt="User Icon"/></a>
+      <a href="https://www.sicasa.com.mx"><img src="img/logo.png" id="icon" alt="User Icon"/></a>
       
       <!--dejé comentado la imagen de sicasa debido a que no se refleja en la pagina-->
 
