@@ -40,7 +40,7 @@ if(!isset($usuario)){
 <!--Inicia Cabecera-->
   <header>
 <!--Inicia nabvar-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white " id="mainNav">
 <div class="container-fluid">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
