@@ -152,7 +152,7 @@ while($s=$r->fetch_assoc()){
   <!--Termina nabvar-->
   <!--Termina Cabecera-->
 
-  <body  id="fondo">
+  <body class="menu">
   <!-- Main Content -->
   
   <div class="container" id="fondopag">
