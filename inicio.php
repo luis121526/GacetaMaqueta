@@ -1,9 +1,24 @@
 <?php
 session_start();
-$usuario = $_SESSION['username'];
+include 'conexion.php';
+$usuario=$_SESSION['username'];
 if(!isset($usuario)){
-    header("location: index.php");
-}else{
+        header("location: index.php");
+    }else{
+/*Aqui validamos que el usuario de la gaceta esté logueado
+de lo contrario no se le permitirá el acceso*/
+
+/*Aqui se seleccionan los datos del usuario ya logueado par poder mostarlo 
+en l pagina*/ 
+$r=mysqli_query($conexion,"SELECT perfil FROM usuarios WHERE usuario ='$usuario'");
+while($s=$r->fetch_assoc()){
+  $img=$s['perfil'];
+}
+          $sql="SELECT *FROM usuarios WHERE usuario='$usuario'";
+          $stm=$conexion->query($sql);
+          while ($datos=$stm->fetch_object()) {
+            $imagen = base64_encode($datos->perfil);
+      }
 ?>
 
 <!DOCTYPE html>
@@ -32,6 +47,7 @@ if(!isset($usuario)){
   <script src="js/jquery/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/clean-blog.min.js"></script>
+  <link rel="stylesheet" href="css/propio.css">
    <!-- Termina llamando librerias -->
 </head>
 
@@ -87,8 +103,16 @@ if(!isset($usuario)){
     <li class="nav-item">
           <a class="nav-link" href="Contenidoweb/buzon.php">Buzón</a>
     </li>
+    <!--Imagen de perfil usuarios-->
     <li class="nav-item">
-          <a class="nav-link" href="salir.php">Cerrar Sesion</a>
+    <img src="data:image/jpeg; base64 ,<?php echo $imagen ?> "  class="imgperf">
+    </li>
+        <!--Imagen de perfil usuarios-->
+
+    <li class="nav-item">
+          
+          <a class="nav-link" href="salir.php"> 
+          Cerrar Sesion</a>
     </li>
     </ul>
   </div>

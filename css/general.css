@@ -49,3 +49,7 @@ p{
 #fondocabecera{
   background-image: url('../img/navbar.jpg');
 }
+
+.imgperf{
+  border-radius: 10px;
+}
