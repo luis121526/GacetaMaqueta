@@ -37,7 +37,7 @@ while($s=$r->fetch_assoc()){
 
 
 
-  <title>TemasInteres</title>
+  <title>Nuestras Políticas</title>
 
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
