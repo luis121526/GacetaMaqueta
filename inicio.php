@@ -62,7 +62,9 @@ while($s=$r->fetch_assoc()){
     <span class="navbar-toggler-icon"></span>
   </button>
 
-<a class="navbar-brand" href="#">Lorem Ipsum</a>
+<!--<a class="navbar-brand" href="#">Lorem Ipssddum</a>-->
+<a class="navbar-brand" href="#">Lorem Ipssum</a>
+
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lateral" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

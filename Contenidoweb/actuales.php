@@ -1,29 +1,25 @@
-<?php session_start();
-
-//include 'conexion.php';
-
+<?php
+session_start();
+include '../conexion.php';
 $usuario=$_SESSION['username'];
 if(!isset($usuario)){
-        header("location: index.php");
+        header("location:../index.php");
     }else{
-        /*
+/*Aqui validamos que el usuario de la gaceta esté logueado
+de lo contrario no se le permitirá el acceso*/
 
-$r=mysqli_query($conexion,"SELECT usuario,nombre,apellido,cod_vend,img_perf FROM usuarios WHERE usuario ='$usuario'");
-
+/*Aqui se seleccionan los datos del usuario ya logueado par poder mostarlo 
+en l pagina*/ 
+$r=mysqli_query($conexion,"SELECT perfil FROM usuarios WHERE usuario ='$usuario'");
 while($s=$r->fetch_assoc()){
-  $name=$s['usuario'];
-  $nombre=$s['nombre'];
-  $apellido=$s['apellido'];
-  $cod=$s['cod_vend'];
-  $img=$s['img_perf'];
+  $img=$s['perfil'];
 }
           $sql="SELECT *FROM usuarios WHERE usuario='$usuario'";
           $stm=$conexion->query($sql);
           while ($datos=$stm->fetch_object()) {
-            $imagen = base64_encode($datos->img_perf);
-    
-      }*/
-    ?>
+            $imagen = base64_encode($datos->perfil);
+      }
+?>
 
 <!DOCTYPE html>
 <html lang="ea">
@@ -66,6 +62,7 @@ while($s=$r->fetch_assoc()){
   <script src="../js/jquery/jquery.min.js"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="../js/clean-blog.min.js"></script>
+  <link rel="stylesheet" href="../css/propio.css">
   <!--<link rel="stylesheet" type="text/css" href="../css/miestilo.css">-->
    <!-- Termina llamando librerias -->
   
@@ -141,6 +138,11 @@ while($s=$r->fetch_assoc()){
     <li class="nav-item">
           <a class="nav-link" href="buzon.php">Buzón</a>
     </li>
+    <!--Imagen de perfil usuarios-->
+    <li class="nav-item">
+    <img src="data:../image/jpeg; base64 ,<?php echo $imagen ?> "class="imgperf">
+    </li>
+        <!--Imagen de perfil usuarios-->
     <li class="nav-item">
           <a class="nav-link" href="../salir.php">Cerrar Sesion</a>
     </li>
