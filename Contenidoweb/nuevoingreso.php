@@ -159,41 +159,7 @@ while($s=$r->fetch_assoc()){
   
 
 
-  	<form method="POST" action="procesar2.php">
-
-    <div class="row">
-  <div class="col">
-      <br>
-      <span>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mailbox" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M10 21v-6.5a3.5 3.5 0 0 0 -7 0v6.5h18v-6a4 4 0 0 0 -4 -4h-10.5" />
-        <path d="M12 11v-8h4l2 2l-2 2h-4" />
-        <path d="M6 15h1" />
-        </svg>
-      </span>
-
-  </div>
-</div><br>
-
-  <div class="mb-3">
-    <input type="text" class="form-control" name="asunto" placeholder="Asunto De Mensaje">
-    
-  </div>
-
-  <div class="form-floating">
-  <textarea class="form-control" placeholder="Escribe tus comentarios" name="coments" style="height: 100px"></textarea>
-</div>
-<br>
-  <div class="privacidad">
-    <div class="form-check">
-    <input type="checkbox" class="form-check-input"  name="acepto" value=1>
-    <label class="form-check-label" for="exampleCheck1">Deseo que mi mensaje sea anónimo</label>
-  </div>
-  </div>
-<br>
-  <button type="submit" class="btn btn-info btn-sm">Enviar</button>
-</form>
+  
 
 
 

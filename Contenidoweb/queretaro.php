@@ -58,8 +58,7 @@ if(!isset($usuario)){
     <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Locaciones</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-    <li class="dropdown-item"><a href="Contenidoweb/cancun.php">Cancún/Rivera Maya</a></li>
-    <li class="dropdown-item"><a href="cancun.php">Cancún/Rivera Maya</a></li>
+        <li class="dropdown-item"><a href="cancun.php">Cancún/Rivera Maya</a></li>
         <li class="dropdown-item"><a href="cdmx.php">CDMX</a></li>
         <li class="dropdown-item"><a href="guadalajara.php">Guadalajara</a></li>
         <li class="dropdown-item"><a href="monterrey.php">Monterrey</a></li>
@@ -67,36 +66,35 @@ if(!isset($usuario)){
       </ul>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="#">Eventos</a>
+          <a class="nav-link" href="../Contenidoweb/eventos.php">Eventos</a>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="#">Alianzas</a>
+          <a class="nav-link" href="../Contenidoweb/alianzas.php">Alianzas</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Organización</a>
       <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">
-        <li class="dropdown-item"><a href="#">Organigrama</a></li>     
-        <li class="dropdown-item"><a href="#">Políticas</a></li>
+        <li class="dropdown-item"><a href="../Contenidoweb/organigrama.php">Organigrama</a></li>     
+        <li class="dropdown-item"><a href="../Contenidoweb/politicas.php">Políticas</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Miembros</a>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu" style="background-color: #EBF9F8">     
-        <li class="dropdown-item"><a href="#">Nuevos Ingresos</a></li>  
-        <li class="dropdown-item"><a href="#">Miembros Actuales</a></li>
+        <li class="dropdown-item"><a href="../Contenidoweb/nuevoingreso.php">Nuevos Ingresos</a></li>  
+        <li class="dropdown-item"><a href="../Contenidoweb/actuales.php">Miembros Actuales</a></li>
       </ul>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="buzon.php">Buzón</a>
+          <a class="nav-link" href="buzon.php">Buzón</a>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="salir.php">Cerrar Sesion</a>
+    <a class="nav-link" href="../salir.php">Cerrar Sesion</a>
     </li>
     </ul>
   </div>
 </div>
 </nav>
-
 <!--Termina nabvar-->
   </header>
   <!--Termina Cabecera-->
